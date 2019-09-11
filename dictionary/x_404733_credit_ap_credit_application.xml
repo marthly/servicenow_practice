@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="credit application" max_length="40" name="x_404733_credit_ap_credit_application" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Firm Name" max_length="100" name="firm_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+    </element>
+</database>
