@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_city" table="x_404733_credit_ap_credit_application" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>california</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Anaheim</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:39:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a947bc61bb733008f38ed3abc4bcb6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:39:16</sys_updated_on>
+            <value>Anaheim</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alaska</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Anchorage</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 22:55:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b7a6b0e1b7733008f38ed3abc4bcbb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 22:55:04</sys_updated_on>
+            <value>Anchorage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Apache Junction</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89fe63c21bb733008f38ed3abc4bcbff</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:24:47</sys_updated_on>
+            <value>Apache Junction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alabama</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Auburn</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 19:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4700b861bf333008f38ed3abc4bcbf5</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:19:16</sys_updated_on>
+            <value>Auburn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arkansas</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bentonville</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:29:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d062b7861bb733008f38ed3abc4bcb13</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:34:20</sys_updated_on>
+            <value>Bentonville</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Avondale</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85fe63c21bb733008f38ed3abc4bcbf4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:24:49</sys_updated_on>
+            <value>Avondale</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alaska</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bethel</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 22:55:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>477aeb8e1b7733008f38ed3abc4bcbad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 22:55:04</sys_updated_on>
+            <value>Bethel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alabama</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Birmingham</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 19:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34700b861bf333008f38ed3abc4bcbef</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:19:22</sys_updated_on>
+            <value>Birmingham</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arkansas</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Conway</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:29:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9462b7861bb733008f38ed3abc4bcb10</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:34:20</sys_updated_on>
+            <value>Conway</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>california</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fresno</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:39:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a947bc61bb733008f38ed3abc4bcb6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:39:16</sys_updated_on>
+            <value>Fresno</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Buckeye</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81fe63c21bb733008f38ed3abc4bcbf8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:24:51</sys_updated_on>
+            <value>Buckeye</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alabama</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Decatur</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 19:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34700b861bf333008f38ed3abc4bcbf6</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:19:27</sys_updated_on>
+            <value>Decatur</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alaska</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fairbanks</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 22:55:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>077aeb8e1b7733008f38ed3abc4bcbae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 22:55:04</sys_updated_on>
+            <value>Fairbanks</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arkansas</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fayetteville</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:29:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9062f3461bb733008f38ed3abc4bcb01</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:34:20</sys_updated_on>
+            <value>Fayetteville</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>california</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Long Beach</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:39:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a947bc61bb733008f38ed3abc4bcb6d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:40:13</sys_updated_on>
+            <value>Long Beach</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bullhead City</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0dfe63c21bb733008f38ed3abc4bcbfd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:24:53</sys_updated_on>
+            <value>Bullhead City</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alabama</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dothan</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 19:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38700b861bf333008f38ed3abc4bcbf4</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:19:32</sys_updated_on>
+            <value>Dothan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arkansas</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fort Smith</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:29:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d062f3461bb733008f38ed3abc4bcb00</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:34:20</sys_updated_on>
+            <value>Fort Smith</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alaska</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Juneau</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 22:55:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c37aeb8e1b7733008f38ed3abc4bcbaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 22:55:04</sys_updated_on>
+            <value>Juneau</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>california</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Los Angeles</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:39:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6947bc61bb733008f38ed3abc4bcb6e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:41:19</sys_updated_on>
+            <value>Los Angeles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Casa Grande</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41fe63c21bb733008f38ed3abc4bcbf9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:24:54</sys_updated_on>
+            <value>Casa Grande</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alabama</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Florence</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 19:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30700b861bf333008f38ed3abc4bcbf8</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:19:38</sys_updated_on>
+            <value>Florence</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arkansas</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jonesboro</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:29:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1062f3461bb733008f38ed3abc4bcb03</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:34:20</sys_updated_on>
+            <value>Jonesboro</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alaska</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ketchikan</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 22:55:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>837aeb8e1b7733008f38ed3abc4bcbb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 22:55:04</sys_updated_on>
+            <value>Ketchikan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>california</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oakland</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:39:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96947bc61bb733008f38ed3abc4bcb6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:39:16</sys_updated_on>
+            <value>Oakland</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chandler</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8dfe23821bb733008f38ed3abc4bcbd2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:24:56</sys_updated_on>
+            <value>Chandler</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alabama</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gadsden</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 19:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b8700b861bf333008f38ed3abc4bcbfa</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:19:56</sys_updated_on>
+            <value>Gadsden</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alaska</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kenai</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 22:55:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>437aeb8e1b7733008f38ed3abc4bcbb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 22:55:04</sys_updated_on>
+            <value>Kenai</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arkansas</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Little Rock</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:29:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d062b3461bb733008f38ed3abc4bcbff</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:34:20</sys_updated_on>
+            <value>Little Rock</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>california</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sacramento</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:39:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56947bc61bb733008f38ed3abc4bcb70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:39:16</sys_updated_on>
+            <value>Sacramento</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flagstaff</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45fe63c21bb733008f38ed3abc4bcbf5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:24:58</sys_updated_on>
+            <value>Flagstaff</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alabama</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hoover</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 19:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b8700b861bf333008f38ed3abc4bcbf3</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:21:09</sys_updated_on>
+            <value>Hoover</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alaska</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kodiak</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 22:55:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>037aeb8e1b7733008f38ed3abc4bcbb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 22:55:05</sys_updated_on>
+            <value>Kodiak</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arkansas</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>North Little Rock</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:29:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d462b7861bb733008f38ed3abc4bcb0f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:34:20</sys_updated_on>
+            <value>North Little Rock</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>california</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>San Diego</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:39:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16947bc61bb733008f38ed3abc4bcb71</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:40:01</sys_updated_on>
+            <value>San Diego</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gilbert</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9fe63c21bb733008f38ed3abc4bcbef</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:24:59</sys_updated_on>
+            <value>Gilbert</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alabama</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Huntsville</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 19:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30700b861bf333008f38ed3abc4bcbf1</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:20:15</sys_updated_on>
+            <value>Huntsville</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alaska</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Palmer</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 22:55:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf7aeb8e1b7733008f38ed3abc4bcbb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 22:55:05</sys_updated_on>
+            <value>Palmer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arkansas</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pine Bluf</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:29:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1462b7861bb733008f38ed3abc4bcb12</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:34:20</sys_updated_on>
+            <value>Pine Bluf</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>california</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>San Francisco</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:39:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2943b0a1bb733008f38ed3abc4bcbfe</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:41:08</sys_updated_on>
+            <value>San Francisco</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Glendale</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4dfe63c21bb733008f38ed3abc4bcbed</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:01</sys_updated_on>
+            <value>Glendale</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alabama</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Madison</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 19:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0700b861bf333008f38ed3abc4bcbf7</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:21:04</sys_updated_on>
+            <value>Madison</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arkansas</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rogers</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:29:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5462b7861bb733008f38ed3abc4bcb11</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:34:20</sys_updated_on>
+            <value>Rogers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>california</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>San Jose</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:39:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92943b0a1bb733008f38ed3abc4bcbff</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:40:50</sys_updated_on>
+            <value>San Jose</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alaska</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sitka</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 22:55:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f7aeb8e1b7733008f38ed3abc4bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 22:55:05</sys_updated_on>
+            <value>Sitka</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Goodyear</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05fe63c21bb733008f38ed3abc4bcbf6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:04</sys_updated_on>
+            <value>Goodyear</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alabama</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobile</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 19:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc700b861bf333008f38ed3abc4bcbf1</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:21:15</sys_updated_on>
+            <value>Mobile</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>california</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Santa Ana</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:39:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52947b0a1bb733008f38ed3abc4bcb00</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:40:27</sys_updated_on>
+            <value>Santa Ana</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arkansas</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Springdale</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:29:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5062f3461bb733008f38ed3abc4bcb02</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:34:20</sys_updated_on>
+            <value>Springdale</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alaska</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wasilla</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 22:55:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f7aeb8e1b7733008f38ed3abc4bcbb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 22:55:05</sys_updated_on>
+            <value>Wasilla</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lake Havasu City</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1fe63c21bb733008f38ed3abc4bcbf7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:07</sys_updated_on>
+            <value>Lake Havasu City</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alabama</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Montgomery</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 19:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0700b861bf333008f38ed3abc4bcbf0</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:20:53</sys_updated_on>
+            <value>Montgomery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>california</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:41:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1825f7c61bb733008f38ed3abc4bcb8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:41:36</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arkansas</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:33:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d03bb861bb733008f38ed3abc4bcb73</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:34:20</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alaska</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 22:55:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>728aaf4e1b7733008f38ed3abc4bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 22:55:20</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Marana</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49fea3c21bb733008f38ed3abc4bcb00</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:09</sys_updated_on>
+            <value>Marana</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alabama</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Phenix City</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 19:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc700b861bf333008f38ed3abc4bcbf8</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:21:23</sys_updated_on>
+            <value>Phenix City</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maricopa</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdfe63c21bb733008f38ed3abc4bcbfa</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:11</sys_updated_on>
+            <value>Maricopa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alabama</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prattville</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 19:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c700b861bf333008f38ed3abc4bcbf9</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:20:47</sys_updated_on>
+            <value>Prattville</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mesa</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdfe23821bb733008f38ed3abc4bcbd1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:13</sys_updated_on>
+            <value>Mesa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alabama</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tuscaloosa</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 19:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c700b861bf333008f38ed3abc4bcbf2</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:20:22</sys_updated_on>
+            <value>Tuscaloosa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oro Valley</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8dfe63c21bb733008f38ed3abc4bcbfb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:15</sys_updated_on>
+            <value>Oro Valley</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alabama</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vestavia Hills</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 19:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38700b861bf333008f38ed3abc4bcbfb</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:20:29</sys_updated_on>
+            <value>vestavia Hills</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>alabama</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 22:49:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6239274e1b7733008f38ed3abc4bcb6c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 22:51:13</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Peoria</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49fe63c21bb733008f38ed3abc4bcbf1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:19</sys_updated_on>
+            <value>Peoria</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Phoenix</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>16</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01fe23821bb733008f38ed3abc4bcbd0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:21</sys_updated_on>
+            <value>Phoenix</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prescott</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>17</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4dfe63c21bb733008f38ed3abc4bcbfc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:24</sys_updated_on>
+            <value>Prescott</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prescott Valley</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>18</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9fe63c21bb733008f38ed3abc4bcbfe</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:27</sys_updated_on>
+            <value>Prescott Valley</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Scottsdale</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>19</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0dfe63c21bb733008f38ed3abc4bcbee</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:30</sys_updated_on>
+            <value>Scottsdale</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sierra Vista</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01fe63c21bb733008f38ed3abc4bcbfa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:37</sys_updated_on>
+            <value>Sierra Vista</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Surprise</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>21</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09fe63c21bb733008f38ed3abc4bcbf2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:39</sys_updated_on>
+            <value>Surprise</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tempe</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>22</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89fe63c21bb733008f38ed3abc4bcbf0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:40</sys_updated_on>
+            <value>Tempe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tucson</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>23</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01fe23821bb733008f38ed3abc4bcbd1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:42</sys_updated_on>
+            <value>Tucson</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arizona</dependent_value>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yuma</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sequence>24</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 23:14:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5fe63c21bb733008f38ed3abc4bcbf3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 23:25:48</sys_updated_on>
+            <value>Yuma</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_city</element>
+            <name>x_404733_credit_ap_credit_application</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-11 19:08:16</sys_created_on>
+            <sys_id>a096364e1bb333008f38ed3abc4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_city</sys_name>
+            <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+            <sys_update_name>sys_choice_x_404733_credit_ap_credit_application_u_city</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-11 19:08:16</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

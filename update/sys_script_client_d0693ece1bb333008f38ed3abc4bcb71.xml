@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>(credit application) &lt;City&gt; - Displays the city that corresponds to the selected State.</description>
+        <field>u_state</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>State-City Match</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	
+	var city = g_form.getValue('u_city');
+	
+	g_form.clearOptions('u_city');
+
+   //Type appropriate comment here, and begin script below
+	if(newValue === 'alabama' || oldValue === 'alabama'){
+		
+		g_form.addOption('u_city', 'auburn' , 'Auburn');
+		g_form.addOption('u_city', 'birmingham', 'Birmingham');
+		g_form.addOption('u_city', 'montgomery', 'Montgomery');
+		g_form.addOption('u_city', 'huntsville', 'Huntsville');
+		g_form.addOption('u_city', 'mobile', 'Mobile');
+		g_form.addOption('u_city', 'tuscaloosa', 'Tuscaloosa');
+		g_form.addOption('u_city', 'hoover', 'Hoover');
+		g_form.addOption('u_city', 'dothan', 'Dothan');
+		g_form.addOption('u_city', 'decatur', 'Decatur');
+		g_form.addOption('u_city', 'madison', 'Madison');
+		g_form.addOption('u_city', 'florence', 'Florence');
+		g_form.addOption('u_city', 'phenix_city', 'Phenix City');
+		g_form.addOption('u_city', 'prattville', 'Prattville');
+		g_form.addOption('u_city', 'gadsden', 'Gadsden');
+		g_form.addOption('u_city', 'vestavia_hills', 'Vestavia Hills');
+		g_form.addOption('u_city', 'other_city', 'Other City');
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-11 19:30:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d0693ece1bb333008f38ed3abc4bcb71</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>State-City Match</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_update_name>sys_script_client_d0693ece1bb333008f38ed3abc4bcb71</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-11 22:16:00</sys_updated_on>
+        <table>x_404733_credit_ap_credit_application</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

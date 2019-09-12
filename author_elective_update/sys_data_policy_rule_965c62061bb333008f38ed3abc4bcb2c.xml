@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="DELETE">
+        <disabled>ignore</disabled>
+        <field>firm_name</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-11 18:23:36</sys_created_on>
+        <sys_data_policy display_value="Sets the Firm Name field to mandatory">165c62061bb333008f38ed3abc4bcb29</sys_data_policy>
+        <sys_id>965c62061bb333008f38ed3abc4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>firm_name</sys_name>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_update_name>sys_data_policy_rule_965c62061bb333008f38ed3abc4bcb2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-11 18:23:36</sys_updated_on>
+        <table>x_404733_credit_ap_credit_application</table>
+    </sys_data_policy_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</application>
+        <file_path/>
+        <instance_id>830fcfd9db1af3400ae3ac44d49619f8</instance_id>
+        <instance_name>dev88709</instance_name>
+        <name>sys_data_policy_rule_965c62061bb333008f38ed3abc4bcb2c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule"><sys_data_policy_rule action="INSERT_OR_UPDATE"><disabled>ignore</disabled><field>firm_name</field><mandatory>true</mandatory><sys_class_name>sys_data_policy_rule</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-11 18:23:36</sys_created_on><sys_data_policy display_value="Sets the Firm Name field to mandatory">165c62061bb333008f38ed3abc4bcb29</sys_data_policy><sys_id>965c62061bb333008f38ed3abc4bcb2c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>firm_name</sys_name><sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package><sys_policy/><sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope><sys_update_name>sys_data_policy_rule_965c62061bb333008f38ed3abc4bcb2c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-11 18:23:36</sys_updated_on><table>x_404733_credit_ap_credit_application</table></sys_data_policy_rule></record_update>]]></payload>
+        <payload_hash>1717705823</payload_hash>
+        <record_name>firm_name</record_name>
+        <reverted_from/>
+        <source>6c0aaace1b7333008f38ed3abc4bcba9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-11 18:23:36</sys_created_on>
+        <sys_id>9a5c62061bb333008f38ed3abc4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d2191099d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-11 18:23:36</sys_updated_on>
+        <type>Data Policy Rule</type>
+        <update_guid>d25c62068cb33300181298262f10232e</update_guid>
+        <update_guid_history>d25c62068cb33300181298262f10232e:1717705823</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-12 21:14:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy_rule">sys_data_policy_rule</sys_db_object>
+        <sys_id>29b20bd67adb4bcfb3e7c80fa9d8ebb1</sys_id>
+        <sys_metadata>965c62061bb333008f38ed3abc4bcb2c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>firm_name</sys_name>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_scope_delete display_value="">0240c2cea527429583a7f0757d3e1e51</sys_scope_delete>
+        <sys_update_name>sys_data_policy_rule_965c62061bb333008f38ed3abc4bcb2c</sys_update_name>
+        <sys_update_version display_value="sys_data_policy_rule_965c62061bb333008f38ed3abc4bcb2c">9a5c62061bb333008f38ed3abc4bcb2e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-12 21:14:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_404733_credit_ap_credit_application">u_duns_type=subsidiary^ORu_duns_type=division^EQ<item display_value="Subsidiary" endquery="false" field="u_duns_type" goto="false" newquery="false" operator="=" or="false" value="subsidiary"/>
+            <item display_value="Division" endquery="false" field="u_duns_type" goto="false" newquery="false" operator="=" or="true" value="division"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>(credit application)&lt;Parent Name&gt; - Show or Hide Parent Name Field Depending on &lt;DUNS Type&gt;</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-12 18:45:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a57a3f5e1b3773008f38ed3abc4bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(credit application)&lt;Parent Name&gt; - Show or Hide Parent Name Field Depending on &lt;DUNS Type&gt;</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_update_name>sys_ui_policy_a57a3f5e1b3773008f38ed3abc4bcb66</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-12 18:45:19</sys_updated_on>
+        <table>x_404733_credit_ap_credit_application</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>
