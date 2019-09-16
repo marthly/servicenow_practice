@@ -592,6 +592,7 @@
         <element attributes="edge_encryption_enabled=true" label="Other City" max_length="40" name="u_other_coty" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Parent Name" max_length="40" name="u_parent_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="President Name" mandatory="true" max_length="40" name="u_president_name" type="string"/>
+        <element attributes="encode_utf8=false" label="New Reference" max_length="32" name="u_reference_1" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Address" max_length="50" name="u_reference_address_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Company Name" max_length="40" name="u_reference_company" type="string"/>
         <element label="Phone" max_length="40" name="u_reference_phone_1" type="phone_number_e164"/>
@@ -662,6 +663,8 @@
             </choice>
         </element>
         <element label="Zip" max_length="40" name="u_ref_zip" type="longint"/>
+        <element attributes="edge_encryption_enabled=true" label="Today's Date" mandatory="true" max_length="40" name="u_sig_date" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Full Name" mandatory="true" max_length="50" name="u_sig_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="State" mandatory="true" max_length="40" name="u_state" type="string">
             <choice>
                 <element inactive_on_update="false" label="Alabama" sequence="0" value="alabama"/>
@@ -719,5 +722,8 @@
         <element attributes="edge_encryption_enabled=true" label="Street Address" mandatory="true" max_length="100" name="u_street_address" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Web Address" max_length="1024" name="u_web_address" type="url"/>
         <element label="Zip" mandatory="true" max_length="40" name="u_zip" type="longint"/>
+        <index name="index">
+            <element name="u_reference_1"/>
+        </index>
     </element>
 </database>

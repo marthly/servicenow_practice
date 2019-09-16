@@ -70,6 +70,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-09-12 20:58:15</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-16 20:07:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e04f47f1bb333008f38ed3abc4bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_404733_credit_ap_credit_application" name="x_404733_credit_ap_credit_application" sys_domain="global" view="Default view">ae06ff4a1bb733008f38ed3abc4bcb8e</sys_ui_form>
+            <sys_ui_section caption="Signature" display_value="Signature" name="x_404733_credit_ap_credit_application" sys_domain="global" view="Default view">ae04f47f1bb333008f38ed3abc4bcb5c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-16 20:07:20</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_404733_credit_ap_credit_application</name>
             <roles/>
