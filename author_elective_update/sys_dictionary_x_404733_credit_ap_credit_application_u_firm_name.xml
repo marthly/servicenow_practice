@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_firm_name" table="x_404733_credit_ap_credit_application">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Firm Name</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_firm_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>100</max_length>
+        <name>x_404733_credit_ap_credit_application</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-11 19:08:16</sys_created_on>
+        <sys_id>e096f24e1bb333008f38ed3abc4bcbd8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Firm Name</sys_name>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_update_name>sys_dictionary_x_404733_credit_ap_credit_application_u_firm_name</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-12 21:17:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</application>
+        <file_path/>
+        <instance_id>830fcfd9db1af3400ae3ac44d49619f8</instance_id>
+        <instance_name>dev88709</instance_name>
+        <name>sys_dictionary_x_404733_credit_ap_credit_application_u_firm_name</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_firm_name" table="x_404733_credit_ap_credit_application"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Firm Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_firm_name</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>true</mandatory><max_length>100</max_length><name>x_404733_credit_ap_credit_application</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-11 19:08:16</sys_created_on><sys_id>e096f24e1bb333008f38ed3abc4bcbd8</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Firm Name</sys_name><sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package><sys_policy/><sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope><sys_update_name>sys_dictionary_x_404733_credit_ap_credit_application_u_firm_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 21:17:56</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-2049698076</payload_hash>
+        <record_name>credit application.Firm Name</record_name>
+        <reverted_from/>
+        <source>6c0aaace1b7333008f38ed3abc4bcba9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-12 21:17:56</sys_created_on>
+        <sys_id>a1dd58ee1bb773008f38ed3abc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d2756ffde0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-12 21:17:56</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>2ddd58ee30b773003bfe91a42c504026</update_guid>
+        <update_guid_history>2ddd58ee30b773003bfe91a42c504026:-2049698076,135b906e94b77300153a83c16f48f27a:941271519,6c96364ef9b33300955e215649720f62:870488237,e896364e7fb3330038c8ee62479e6b46:1272734006</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 19:56:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>06e329272e6741d0959ac94fcc9d14c1</sys_id>
+        <sys_metadata>e096f24e1bb333008f38ed3abc4bcbd8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Firm Name</sys_name>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_parent display_value="credit application">065ceec21bb333008f38ed3abc4bcbf6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_scope_delete display_value="">0240c2cea527429583a7f0757d3e1e51</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_404733_credit_ap_credit_application_u_firm_name</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_404733_credit_ap_credit_application_u_firm_name">a1dd58ee1bb773008f38ed3abc4bcb27</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 19:56:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

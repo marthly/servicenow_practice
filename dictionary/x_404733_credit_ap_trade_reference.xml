@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="trade  reference" max_length="40" name="x_404733_credit_ap_trade_reference" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="100" name="u_trade_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_city" choice_table="x_404733_credit_ap_credit_application" dependent="u_trade_state" dependent_on_field="u_trade_state" label="City" max_length="40" name="u_trade_city" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Company Name" max_length="40" name="u_trade_company_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="u_trade_date" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_trade_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="u_trade_number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice_field="u_city" label="Other City" max_length="40" name="u_trade_other_city" type="string"/>
+        <element label="Phone" max_length="40" name="u_trade_phone" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_state" choice_table="x_404733_credit_ap_credit_application" label="State" max_length="40" name="u_trade_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Alabama" sequence="0" value="alabama"/>
+                <element inactive_on_update="false" label="Alaska" sequence="1" value="alaska"/>
+                <element inactive_on_update="false" label="Arizona" sequence="2" value="arizona"/>
+                <element inactive_on_update="false" label="Arkansas" sequence="3" value="arkansas"/>
+                <element inactive_on_update="false" label="California" sequence="4" value="california"/>
+                <element inactive_on_update="false" label="Colorado" sequence="5" value="colorado"/>
+                <element inactive_on_update="false" label="Connecticut" sequence="6" value="connecticut"/>
+                <element inactive_on_update="false" label="Delaware" sequence="7" value="delaware"/>
+                <element inactive_on_update="false" label="Florida" sequence="8" value="florida"/>
+                <element inactive_on_update="false" label="Georgia" sequence="9" value="georgia"/>
+                <element inactive_on_update="false" label="Hawaii" sequence="10" value="hawaii"/>
+                <element inactive_on_update="false" label="Idaho" sequence="11" value="idaho"/>
+                <element inactive_on_update="false" label="Illinois" sequence="12" value="illinois"/>
+                <element inactive_on_update="false" label="Indiana" sequence="13" value="indiana"/>
+                <element inactive_on_update="false" label="Iowa" sequence="14" value="iowa"/>
+                <element inactive_on_update="false" label="Kansas" sequence="15" value="kansas"/>
+                <element inactive_on_update="false" label="Kentucky" sequence="16" value="kentucky"/>
+                <element inactive_on_update="false" label="Louisiana" sequence="17" value="louisiana"/>
+                <element inactive_on_update="false" label="Maine" sequence="18" value="maine"/>
+                <element inactive_on_update="false" label="Maryland" sequence="19" value="maryland"/>
+                <element inactive_on_update="false" label="Massachusetts" sequence="20" value="massachusetts"/>
+                <element inactive_on_update="false" label="Michigan" sequence="21" value="michigan"/>
+                <element inactive_on_update="false" label="Minnesota" sequence="22" value="minnesota"/>
+                <element inactive_on_update="false" label="Mississippi" sequence="23" value="mississippi"/>
+                <element inactive_on_update="false" label="Missouri" sequence="24" value="missouri"/>
+                <element inactive_on_update="false" label="Montana" sequence="25" value="montana"/>
+                <element inactive_on_update="false" label="Nebraska" sequence="26" value="nebraska"/>
+                <element inactive_on_update="false" label="Nevada" sequence="27" value="nevada"/>
+                <element inactive_on_update="false" label="New Hampshire" sequence="28" value="new hampshire"/>
+                <element inactive_on_update="false" label="New Jersey" sequence="29" value="new jersey"/>
+                <element inactive_on_update="false" label="New Mexico" sequence="30" value="new mexico"/>
+                <element inactive_on_update="false" label="New York" sequence="31" value="new york"/>
+                <element inactive_on_update="false" label="North Carolina" sequence="32" value="north carolina"/>
+                <element inactive_on_update="false" label="North Dakota" sequence="33" value="north dakota"/>
+                <element inactive_on_update="false" label="Ohio" sequence="34" value="ohio"/>
+                <element inactive_on_update="false" label="Oklahoma" sequence="35" value="oklahoma"/>
+                <element inactive_on_update="false" label="Oregon" sequence="36" value="oregon"/>
+                <element inactive_on_update="false" label="Pennsylvania" sequence="37" value="pennsylvania"/>
+                <element inactive_on_update="false" label="Rhode Island" sequence="38" value="rhode island"/>
+                <element inactive_on_update="false" label="South Carolina" sequence="39" value="south carolina"/>
+                <element inactive_on_update="false" label="South Dakota" sequence="40" value="south dakota"/>
+                <element inactive_on_update="false" label="Tennessee" sequence="41" value="tennessee"/>
+                <element inactive_on_update="false" label="Texas" sequence="42" value="texas"/>
+                <element inactive_on_update="false" label="Utah" sequence="43" value="utah"/>
+                <element inactive_on_update="false" label="Vermont" sequence="44" value="vermont"/>
+                <element inactive_on_update="false" label="Virginia" sequence="45" value="virginia"/>
+                <element inactive_on_update="false" label="Washington" sequence="46" value="washington"/>
+                <element inactive_on_update="false" label="West Virginia" sequence="47" value="west virginia"/>
+                <element inactive_on_update="false" label="Wisconsin" sequence="48" value="wisconsin"/>
+                <element inactive_on_update="false" label="Wyoming" sequence="49" value="wyoming"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Zip" max_length="40" name="u_trade_zip" type="longint"/>
+    </element>
+</database>

@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_trade_state" table="x_404733_credit_ap_trade_reference" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alabama</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3b659091bc000108f38ed3abc4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>alabama</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alaska</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7b659091bc000108f38ed3abc4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>alaska</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arizona</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67b659091bc000108f38ed3abc4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>arizona</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arkansas</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3b659091bc000108f38ed3abc4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>arkansas</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>California</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63b659091bc000108f38ed3abc4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>california</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Colorado</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7b659091bc000108f38ed3abc4bcb1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>colorado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Connecticut</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27b659091bc000108f38ed3abc4bcb20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>connecticut</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delaware</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3b659091bc000108f38ed3abc4bcb21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>delaware</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Florida</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23b659091bc000108f38ed3abc4bcb22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>florida</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Georgia</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afb659091bc000108f38ed3abc4bcb22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>georgia</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hawaii</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2fb659091bc000108f38ed3abc4bcb23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>hawaii</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Idaho</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abb659091bc000108f38ed3abc4bcb24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>idaho</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Illinois</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bb659091bc000108f38ed3abc4bcb25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>illinois</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Indiana</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7b659091bc000108f38ed3abc4bcb26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>indiana</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Iowa</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27b659091bc000108f38ed3abc4bcb27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>iowa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kansas</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3b659091bc000108f38ed3abc4bcb28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>kansas</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kentucky</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>16</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23b659091bc000108f38ed3abc4bcb29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>kentucky</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Louisiana</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>17</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afb659091bc000108f38ed3abc4bcb29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>louisiana</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maine</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>18</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2fb659091bc000108f38ed3abc4bcb2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>maine</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maryland</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>19</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abb659091bc000108f38ed3abc4bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>maryland</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Massachusetts</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bb659091bc000108f38ed3abc4bcb2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>massachusetts</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Michigan</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>21</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7b659091bc000108f38ed3abc4bcb2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>michigan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Minnesota</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>22</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27b659091bc000108f38ed3abc4bcb2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>minnesota</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mississippi</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>23</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3b659091bc000108f38ed3abc4bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>mississippi</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Missouri</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>24</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23b659091bc000108f38ed3abc4bcb30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>missouri</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Montana</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>25</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afb659091bc000108f38ed3abc4bcb30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>montana</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nebraska</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>26</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2fb659091bc000108f38ed3abc4bcb31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>nebraska</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nevada</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>27</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abb659091bc000108f38ed3abc4bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>nevada</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Hampshire</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>28</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bb659091bc000108f38ed3abc4bcb33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>new hampshire</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Jersey</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>29</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7b659091bc000108f38ed3abc4bcb34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>new jersey</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Mexico</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27b659091bc000108f38ed3abc4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>new mexico</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New York</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>31</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3b659091bc000108f38ed3abc4bcb36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>new york</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>North Carolina</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>32</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23b659091bc000108f38ed3abc4bcb37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>north carolina</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>North Dakota</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>33</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afb659091bc000108f38ed3abc4bcb37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>north dakota</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ohio</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>34</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2fb659091bc000108f38ed3abc4bcb38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>ohio</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oklahoma</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>35</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abb659091bc000108f38ed3abc4bcb39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>oklahoma</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oregon</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>36</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bb659091bc000108f38ed3abc4bcb3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>oregon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pennsylvania</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>37</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7b659091bc000108f38ed3abc4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>pennsylvania</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rhode Island</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>38</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27b659091bc000108f38ed3abc4bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>rhode island</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>South Carolina</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>39</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3b659091bc000108f38ed3abc4bcb3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>south carolina</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>South Dakota</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>40</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23b659091bc000108f38ed3abc4bcb3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>south dakota</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tennessee</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>41</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afb659091bc000108f38ed3abc4bcb3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>tennessee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Texas</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>42</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2fb659091bc000108f38ed3abc4bcb3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+            <value>texas</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utah</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>43</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abb659091bc000108f38ed3abc4bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:23</sys_updated_on>
+            <value>utah</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vermont</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>44</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bb659091bc000108f38ed3abc4bcb41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:23</sys_updated_on>
+            <value>vermont</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Virginia</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>45</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7b659091bc000108f38ed3abc4bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:23</sys_updated_on>
+            <value>virginia</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Washington</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>46</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27b659091bc000108f38ed3abc4bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:23</sys_updated_on>
+            <value>washington</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>West Virginia</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>47</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3b659091bc000108f38ed3abc4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:23</sys_updated_on>
+            <value>west virginia</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wisconsin</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>48</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23b659091bc000108f38ed3abc4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:23</sys_updated_on>
+            <value>wisconsin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trade_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wyoming</label>
+            <language>en</language>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sequence>49</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afb659091bc000108f38ed3abc4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:23</sys_updated_on>
+            <value>wyoming</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_trade_state</element>
+            <name>x_404733_credit_ap_trade_reference</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 19:51:22</sys_created_on>
+            <sys_id>2fb659091bc000108f38ed3abc4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_trade_state</sys_name>
+            <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+            <sys_update_name>sys_choice_x_404733_credit_ap_trade_reference_u_trade_state</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 19:51:22</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

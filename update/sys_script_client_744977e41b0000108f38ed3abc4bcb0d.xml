@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>(credit application)&lt;Save This Reference?&gt; - Save the reference in a separate Trade Reference.</description>
+        <field>u_trade_ref_save</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Save Trade Reference</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	//============Variables From Credit Application Form=============
+	var number = g_form.getValue('number');
+	var date = g_form.getValue('date');
+	
+	var firmName = g_form.getValue('firm_name');
+	
+	var companyName = g_form.getValue("u_reference_company");
+	var phone = g_form.getValue("u_reference_phone_1");
+	var email = g_form.getValue("u_ref_email_1");
+	var address = g_form.getValue("u_reference_address_1");
+	var state = g_form.getValue("u_ref_state_1");
+	var city = g_form.getValue("u_ref_city_1");
+	var otherCity = g_form.getValue("u_ref_other_city_1");
+	var zip = g_form.getValue("u_ref_zip");
+	//===============================================================
+
+   //Type appropriate comment here, and begin script below
+	if(newValue == "Yes"){
+		g_form.clearMessages();	
+		checkTradeEmptyField(number,date,firmName,companyName,phone,email,address,state,city,otherCity,zip);
+	}
+	else if(newValue == "Clear"){
+		g_form.clearMessages();
+		clearTradeFields();
+		
+	}
+	
+	g_form.clearValue("u_trade_ref_save");   
+}
+
+function checkTradeEmptyField(number,date,firmName,companyName,phone,email,address,state,city,otherCity,zip){
+	var message = "";
+	var empty;
+	
+	if(companyName === "" || phone === "" || email === "" || address === "" || state === "" || city === "" || zip === ""){
+		empty = true;
+	}
+	else{
+		empty = false;
+	}
+	
+	
+	if(empty === true){
+		message += "<font color='red'>Please Fill Empty Fields: </font>";
+		
+		if(companyName === ""){
+			message += "</br>Company Name";
+			g_form.flash("u_reference_company","red",0);
+		}
+		if(phone === ""){
+			message += "</br>Phone";
+			g_form.flash("u_reference_phone_1","red",0);
+		}
+		if(email === ""){
+			message += "</br>Email";
+			g_form.flash("u_ref_email_1","red",0);
+		}
+		if(address === ""){
+			message += "</br>Address";
+			g_form.flash("u_reference_address_1","red",0);
+		}
+		if(state === ""){
+			message += "</br>State";
+			g_form.flash("u_ref_state_1","red",0);
+		}
+		if(city === ""){
+			message += "</br>City";
+			g_form.flash("u_ref_city_1","red",0);
+		}
+		if(zip === ""){
+			message += "</br>Zip";
+			g_form.flash("u_ref_zip","red",0);
+		}
+		
+	}else{
+		
+		var continueOn = confirm("Are You Sure You Want To Save ["+ companyName +"] as ["+ firmName +"] Trade Reference?");
+		
+		if(continueOn){
+			
+			saveReference(number,date,companyName,phone,email,address,state,city,otherCity,zip);
+			
+			message = "<font color='green'>This Trade Reference Has Been Saved.</font>" +
+				  "</br>Company Name: " + companyName +
+				  "</br>Phone: " + phone +
+				  "</br>Email: " + email +
+				  "</br>Address: " + address +
+				  "</br>State: " + state +
+				  "</br>City: " + city;
+			
+			if(city === "Other"){
+				message += "</br>Other City:" + otherCity +
+						   "</br>Zip: " + zip;
+			}else{
+				message += "</br>Zip: " + zip;
+			}
+			
+		}
+		else{
+			message = "<font color='yellow'>Trade Reference Was Not Saved.</font>";
+		}
+	}	
+	
+	g_form.addInfoMessage(message);
+	
+	if(continueOn){
+		clearFields();		
+	}
+}
+
+function clearTradeFields(){
+	
+	var continueOn = confirm("Are You Sure You Want To Clear The Trade Reference Fields?");
+	
+	if(continueOn){
+		clearFields();
+	}	
+}
+
+function clearFields(){
+	g_form.clearValue("u_reference_company");
+	g_form.clearValue("u_reference_phone_1");
+	g_form.clearValue("u_ref_email_1");
+	g_form.clearValue("u_reference_address_1");
+	g_form.clearValue("u_ref_state_1");
+	g_form.clearValue("u_ref_city_1");
+	g_form.clearValue("u_ref_other_city_1");
+	g_form.clearValue("u_ref_zip");
+	g_form.addInfoMessage("<font color='red'>All Trade Reference Fields Have Been Cleared.</font>");
+}
+
+function saveReference(number,date,companyName,phone,email,address,state,city,otherCity,zip){
+	
+	var tradeRef = new GlideAjax('GlideAjaxAddReference');
+	tradeRef.addParam('sysparm_name','addTradeReference');
+	
+	tradeRef.addParam('sysparm_number', number);
+	tradeRef.addParam('sysparm_date', date);
+	tradeRef.addParam('sysparm_company_name',companyName);
+	tradeRef.addParam('sysparm_phone', phone);
+	tradeRef.addParam('sysparm_email', email);
+	tradeRef.addParam('sysparm_address', address);
+	tradeRef.addParam('sysparm_state', state);
+	tradeRef.addParam('sysparm_city', city);
+	tradeRef.addParam('sysparm_other_city', otherCity);
+	tradeRef.addParam('sysparm_zip', zip);
+	
+	tradeRef.getXML(callBackFunction);
+	
+	function callBackFunction(response){
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-19 18:32:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>744977e41b0000108f38ed3abc4bcb0d</sys_id>
+        <sys_mod_count>66</sys_mod_count>
+        <sys_name>Save Trade Reference</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_update_name>sys_script_client_744977e41b0000108f38ed3abc4bcb0d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-20 21:46:26</sys_updated_on>
+        <table>x_404733_credit_ap_credit_application</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
