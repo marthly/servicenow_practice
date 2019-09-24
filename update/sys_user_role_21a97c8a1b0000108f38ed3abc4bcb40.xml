@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_404733_credit_ap.bank_reference_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>bank_reference_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-23 20:18:11</sys_created_on>
+        <sys_id>21a97c8a1b0000108f38ed3abc4bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_404733_credit_ap.bank_reference_user</sys_name>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_update_name>sys_user_role_21a97c8a1b0000108f38ed3abc4bcb40</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-23 20:18:11</sys_updated_on>
+    </sys_user_role>
+</record_update>

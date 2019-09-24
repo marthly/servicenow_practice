@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>bank reference</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_404733_credit_ap_bank_reference</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-23 20:18:11</sys_created_on>
+        <sys_id>ebd8340e1b0000108f38ed3abc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bank reference</sys_name>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_update_name>sys_db_object_ebd8340e1b0000108f38ed3abc4bcba8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-23 20:18:11</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_404733_credit_ap.bank_reference_user" name="x_404733_credit_ap.bank_reference_user">21a97c8a1b0000108f38ed3abc4bcb40</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</application>
+        <file_path/>
+        <instance_id>830fcfd9db1af3400ae3ac44d49619f8</instance_id>
+        <instance_name>dev88709</instance_name>
+        <name>sys_db_object_ebd8340e1b0000108f38ed3abc4bcba8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>bank reference</label><live_feed_enabled>false</live_feed_enabled><name>x_404733_credit_ap_bank_reference</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-23 20:18:11</sys_created_on><sys_id>ebd8340e1b0000108f38ed3abc4bcba8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>bank reference</sys_name><sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package><sys_policy/><sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope><sys_update_name>sys_db_object_ebd8340e1b0000108f38ed3abc4bcba8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-23 20:18:11</sys_updated_on><update_access>false</update_access><user_role display_value="x_404733_credit_ap.bank_reference_user" name="x_404733_credit_ap.bank_reference_user">21a97c8a1b0000108f38ed3abc4bcb40</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-956197612</payload_hash>
+        <record_name>bank reference</record_name>
+        <reverted_from/>
+        <source>6c0aaace1b7333008f38ed3abc4bcba9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-23 20:18:12</sys_created_on>
+        <sys_id>39a9fc0e1b0000108f38ed3abc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d5fc644a10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-23 20:18:12</sys_updated_on>
+        <type>Table</type>
+        <update_guid>71a9fc0e44000010f9f5634112ec72d2</update_guid>
+        <update_guid_history>71a9fc0e44000010f9f5634112ec72d2:-956197612</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-23 20:24:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>0207dfa08b5c408a974b0043d0c6cd04</sys_id>
+        <sys_metadata>ebd8340e1b0000108f38ed3abc4bcba8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bank reference</sys_name>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_scope_delete display_value="">0240c2cea527429583a7f0757d3e1e51</sys_scope_delete>
+        <sys_update_name>sys_db_object_ebd8340e1b0000108f38ed3abc4bcba8</sys_update_name>
+        <sys_update_version display_value="sys_db_object_ebd8340e1b0000108f38ed3abc4bcba8">39a9fc0e1b0000108f38ed3abc4bcbd2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-23 20:24:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

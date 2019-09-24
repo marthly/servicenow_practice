@@ -3,7 +3,7 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description>(credit application)&lt;Save This Reference?&gt; - Save the reference in a separate Trade Reference.</description>
+        <description>(credit application)&lt;Save This Reference?&gt; - Save the reference in a separate Trade Reference Table.</description>
         <field>u_trade_ref_save</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
@@ -37,8 +37,12 @@
 	}
 	else if(newValue == "Clear"){
 		g_form.clearMessages();
-		clearTradeFields();
-		
+			
+		var continueOn = confirm("Are You Sure You Want To Clear The Trade Reference Fields?");
+	
+		if(continueOn){
+			clearFields();
+		}	
 	}
 	
 	g_form.clearValue("u_trade_ref_save");   
@@ -56,15 +60,15 @@ function checkTradeEmptyField(number,date,firmName,companyName,phone,email,addre
 	}
 	
 	
-	if(empty === true){
-		message += "<font color='red'>Please Fill Empty Fields: </font>";
+	if(empty){
+		message += "<font color='red'>Please Fill The Following Trade Reference Empty Fields: </font>";
 		
 		if(companyName === ""){
-			message += "</br>Company Name";
+			message += "<br>Company Name";
 			g_form.flash("u_reference_company","red",0);
 		}
 		if(phone === ""){
-			message += "</br>Phone";
+			message += "<br>Phone";
 			g_form.flash("u_reference_phone_1","red",0);
 		}
 		if(email === ""){
@@ -72,43 +76,43 @@ function checkTradeEmptyField(number,date,firmName,companyName,phone,email,addre
 			g_form.flash("u_ref_email_1","red",0);
 		}
 		if(address === ""){
-			message += "</br>Address";
+			message += "<br>Address";
 			g_form.flash("u_reference_address_1","red",0);
 		}
 		if(state === ""){
-			message += "</br>State";
+			message += "<br>State";
 			g_form.flash("u_ref_state_1","red",0);
 		}
 		if(city === ""){
-			message += "</br>City";
+			message += "<br>City";
 			g_form.flash("u_ref_city_1","red",0);
 		}
 		if(zip === ""){
-			message += "</br>Zip";
+			message += "<br>Zip";
 			g_form.flash("u_ref_zip","red",0);
 		}
 		
 	}else{
 		
-		var continueOn = confirm("Are You Sure You Want To Save ["+ companyName +"] as ["+ firmName +"] Trade Reference?");
+		var continueOn = confirm("Are You Sure You Want To Save ["+ companyName +"] as ["+ firmName +"]'s Trade Reference?");
 		
 		if(continueOn){
 			
-			saveReference(number,date,companyName,phone,email,address,state,city,otherCity,zip);
+			saveTradeReference(number,date,companyName,phone,email,address,state,city,otherCity,zip);
 			
 			message = "<font color='green'>This Trade Reference Has Been Saved.</font>" +
-				  "</br>Company Name: " + companyName +
-				  "</br>Phone: " + phone +
-				  "</br>Email: " + email +
-				  "</br>Address: " + address +
-				  "</br>State: " + state +
-				  "</br>City: " + city;
+				  "<br>Company Name: " + companyName +
+				  "<br>Phone: " + phone +
+				  "<br>Email: " + email +
+				  "<br>Address: " + address +
+				  "<br>State: " + state +
+				  "<br>City: " + city;
 			
 			if(city === "Other"){
-				message += "</br>Other City:" + otherCity +
-						   "</br>Zip: " + zip;
+				message += "<br>Other City:" + otherCity +
+						   "<br>Zip: " + zip;
 			}else{
-				message += "</br>Zip: " + zip;
+				message += "<br>Zip: " + zip;
 			}
 			
 		}
@@ -124,15 +128,6 @@ function checkTradeEmptyField(number,date,firmName,companyName,phone,email,addre
 	}
 }
 
-function clearTradeFields(){
-	
-	var continueOn = confirm("Are You Sure You Want To Clear The Trade Reference Fields?");
-	
-	if(continueOn){
-		clearFields();
-	}	
-}
-
 function clearFields(){
 	g_form.clearValue("u_reference_company");
 	g_form.clearValue("u_reference_phone_1");
@@ -145,7 +140,7 @@ function clearFields(){
 	g_form.addInfoMessage("<font color='red'>All Trade Reference Fields Have Been Cleared.</font>");
 }
 
-function saveReference(number,date,companyName,phone,email,address,state,city,otherCity,zip){
+function saveTradeReference(number,date,companyName,phone,email,address,state,city,otherCity,zip){
 	
 	var tradeRef = new GlideAjax('GlideAjaxAddReference');
 	tradeRef.addParam('sysparm_name','addTradeReference');
@@ -173,7 +168,7 @@ function saveReference(number,date,companyName,phone,email,address,state,city,ot
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>744977e41b0000108f38ed3abc4bcb0d</sys_id>
-        <sys_mod_count>66</sys_mod_count>
+        <sys_mod_count>72</sys_mod_count>
         <sys_name>Save Trade Reference</sys_name>
         <sys_overrides/>
         <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
@@ -181,7 +176,7 @@ function saveReference(number,date,companyName,phone,email,address,state,city,ot
         <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
         <sys_update_name>sys_script_client_744977e41b0000108f38ed3abc4bcb0d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-20 21:46:26</sys_updated_on>
+        <sys_updated_on>2019-09-24 19:20:14</sys_updated_on>
         <table>x_404733_credit_ap_credit_application</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_404733_credit_ap.bank_reference_user" name="x_404733_credit_ap.bank_reference_user">21a97c8a1b0000108f38ed3abc4bcb40</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-23 20:18:11</sys_created_on>
+        <sys_id>e9a9fc0e1b0000108f38ed3abc4bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>21a97c8a1b0000108f38ed3abc4bcb40</sys_name>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_update_name>sys_embedded_help_role_e9a9fc0e1b0000108f38ed3abc4bcb6a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-23 20:18:11</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

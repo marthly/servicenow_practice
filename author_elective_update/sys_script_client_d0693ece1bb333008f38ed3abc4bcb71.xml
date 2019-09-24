@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>(credit application) &lt;City&gt; - Displays the city that corresponds to the selected State.</description>
+        <field>u_state</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>State-City Match</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	
+	var city = g_form.getValue('u_city');
+	
+	g_form.clearOptions('u_city');
+
+   //Type appropriate comment here, and begin script below
+	if(newValue === 'alabama' || oldValue === 'alabama'){
+		
+		g_form.addOption('u_city', 'auburn' , 'Auburn');
+		g_form.addOption('u_city', 'birmingham', 'Birmingham');
+		g_form.addOption('u_city', 'montgomery', 'Montgomery');
+		g_form.addOption('u_city', 'huntsville', 'Huntsville');
+		g_form.addOption('u_city', 'mobile', 'Mobile');
+		g_form.addOption('u_city', 'tuscaloosa', 'Tuscaloosa');
+		g_form.addOption('u_city', 'hoover', 'Hoover');
+		g_form.addOption('u_city', 'dothan', 'Dothan');
+		g_form.addOption('u_city', 'decatur', 'Decatur');
+		g_form.addOption('u_city', 'madison', 'Madison');
+		g_form.addOption('u_city', 'florence', 'Florence');
+		g_form.addOption('u_city', 'phenix_city', 'Phenix City');
+		g_form.addOption('u_city', 'prattville', 'Prattville');
+		g_form.addOption('u_city', 'gadsden', 'Gadsden');
+		g_form.addOption('u_city', 'vestavia_hills', 'Vestavia Hills');
+		g_form.addOption('u_city', 'other_city', 'Other City');
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-11 19:30:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d0693ece1bb333008f38ed3abc4bcb71</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>State-City Match</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_update_name>sys_script_client_d0693ece1bb333008f38ed3abc4bcb71</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-11 22:16:00</sys_updated_on>
+        <table>x_404733_credit_ap_credit_application</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</application>
+        <file_path/>
+        <instance_id>830fcfd9db1af3400ae3ac44d49619f8</instance_id>
+        <instance_name>dev88709</instance_name>
+        <name>sys_script_client_d0693ece1bb333008f38ed3abc4bcb71</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;(credit application) &amp;lt;City&amp;gt; - Displays the city that corresponds to the selected State.&lt;/description&gt;&lt;field&gt;u_state&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;State-City Match&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	
+	var city = g_form.getValue('u_city');
+	
+	g_form.clearOptions('u_city');
+
+   //Type appropriate comment here, and begin script below
+	if(newValue === 'alabama' || oldValue === 'alabama'){
+		
+		g_form.addOption('u_city', 'auburn' , 'Auburn');
+		g_form.addOption('u_city', 'birmingham', 'Birmingham');
+		g_form.addOption('u_city', 'montgomery', 'Montgomery');
+		g_form.addOption('u_city', 'huntsville', 'Huntsville');
+		g_form.addOption('u_city', 'mobile', 'Mobile');
+		g_form.addOption('u_city', 'tuscaloosa', 'Tuscaloosa');
+		g_form.addOption('u_city', 'hoover', 'Hoover');
+		g_form.addOption('u_city', 'dothan', 'Dothan');
+		g_form.addOption('u_city', 'decatur', 'Decatur');
+		g_form.addOption('u_city', 'madison', 'Madison');
+		g_form.addOption('u_city', 'florence', 'Florence');
+		g_form.addOption('u_city', 'phenix_city', 'Phenix City');
+		g_form.addOption('u_city', 'prattville', 'Prattville');
+		g_form.addOption('u_city', 'gadsden', 'Gadsden');
+		g_form.addOption('u_city', 'vestavia_hills', 'Vestavia Hills');
+		g_form.addOption('u_city', 'other_city', 'Other City');
+	}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-11 19:30:13&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d0693ece1bb333008f38ed3abc4bcb71&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;State-City Match&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Credit Application" source="x_404733_credit_ap"&gt;e40aaace1b7333008f38ed3abc4bcba7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Credit Application"&gt;e40aaace1b7333008f38ed3abc4bcba7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d0693ece1bb333008f38ed3abc4bcb71&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-11 22:16:00&lt;/sys_updated_on&gt;&lt;table&gt;x_404733_credit_ap_credit_application&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1752213307</payload_hash>
+        <record_name>State-City Match</record_name>
+        <reverted_from/>
+        <source>6c0aaace1b7333008f38ed3abc4bcba9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-11 22:16:00</sys_created_on>
+        <sys_id>2a812b461b7733008f38ed3abc4bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d2265ceee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-11 22:16:00</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>a2812b462077330017343293179e1a99</update_guid>
+        <update_guid_history>a2812b462077330017343293179e1a99:-1752213307,475a53ce653733000a1fdffe670bd470:986336050,783a178e1837330034cb8d32891ae5eb:-1752213307,1a13d3c618373300a93dc4d40c7662a8:986336050,6524cb4a28f33300b4476c088cfe7a0b:884570257,8dc3434a06f3330031ed51a85121143f:-1579219675,7d3243c63af333003f0dc79ecc5e6cec:-594155492,050243c601f333009e02e205ad4e4b87:1935185770,a3704b8671f3330036823cf2bb7f5acb:646157423,4e9b7e0220f33300e21572363f939228:-1822973143</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-24 18:04:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>23d7d63ede0a4c20adb7bac7be9f6400</sys_id>
+        <sys_metadata>d0693ece1bb333008f38ed3abc4bcb71</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>State-City Match</sys_name>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_parent display_value="credit application">065ceec21bb333008f38ed3abc4bcbf6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_scope_delete display_value="">0240c2cea527429583a7f0757d3e1e51</sys_scope_delete>
+        <sys_update_name>sys_script_client_d0693ece1bb333008f38ed3abc4bcb71</sys_update_name>
+        <sys_update_version display_value="sys_script_client_d0693ece1bb333008f38ed3abc4bcb71">2a812b461b7733008f38ed3abc4bcb99</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-24 18:04:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

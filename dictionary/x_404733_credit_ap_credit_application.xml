@@ -18,6 +18,12 @@
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_bank_ref_email" type="string"/>
         <element label="Loan Account Number" max_length="40" name="u_bank_ref_loan_num" type="longint"/>
         <element label="Phone" max_length="40" name="u_bank_ref_phone" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Save This Reference?" max_length="40" name="u_bank_ref_save" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="Clear" sequence="1" value="Clear"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Date of Start" max_length="40" name="u_business_start" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_state" dependent_on_field="u_state" label="City" max_length="40" name="u_city" type="string" use_dependent_field="true">
             <choice>

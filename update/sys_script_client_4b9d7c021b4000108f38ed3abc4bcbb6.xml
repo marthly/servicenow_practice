@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>(credit application)&lt;Save This Reference?&gt; - Save the reference in a separate Bank Reference Table.</description>
+        <field>u_bank_ref_save</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Save Bank Reference</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //============Variables From Credit Application Form=============
+	var number = g_form.getValue('number');
+	var date = g_form.getValue('date');
+	var firmName = g_form.getValue('firm_name');
+	
+	var bankName = g_form.getValue('u_bank_name');
+	var phone = g_form.getValue('u_bank_ref_phone');
+	var email = g_form.getValue('u_bank_ref_email');
+	var depositAccNum = g_form.getValue('u_bank_ref_deposit_num');
+	var loanAccNum = g_form.getValue('u_bank_ref_loan_num');	
+	//==============================================================
+	
+	if(newValue == "Yes"){
+		g_form.clearMessages();
+		checkBankEmptyField(number,date,firmName,bankName,phone,email,depositAccNum,loanAccNum);
+	
+	}
+	else if(newValue == "Clear"){
+		g_form.clearMessages();
+		
+		var continueOn = confirm("Are You Sure You Want To Clear The Bank Reference Fields?");
+		
+		if(continueOn){
+			clearFields();
+		}
+		
+	}
+	
+   g_form.clearValue('u_bank_ref_save');
+}
+
+function checkBankEmptyField(number,date,firmName,bankName,phone,email,depositAccNum,loanAccNum){
+	var message = "";
+	var empty;
+	
+	if(bankName === "" || phone === "" || email === "" || depositAccNum === "" || loanAccNum === ""){
+		empty = true;
+	}
+	else{
+		empty = false;
+	}
+	
+	if(empty){
+		message += "<font color='red'>Please Fill The Following Bank Reference Empty Fields: </font>";
+		
+		if(bankName === ""){
+			message += "<br>Name of Bank";
+			g_form.flash("u_bank_name","red",0);
+		}
+		if(phone === ""){
+			message += "<br>Phone";
+			g_form.flash("u_bank_ref_phone","red",0);
+		}
+		if(email === ""){
+			message += "<br>Email";
+			g_form.flash("u_bank_ref_email","red",0);
+		}
+		if(depositAccNum === ""){
+			message += "<br>Deposit Account Number ";
+			g_form.flash("u_bank_ref_deposit_num","red",0);
+		}
+		if(loanAccNum === ""){
+			message += "<br>Loan Account Number";
+			g_form.flash("u_bank_ref_loan_num","red",0);
+		}
+		
+	}
+	else{
+		var continueOn = confirm("Are You Sure You Want To Save ["+ bankName +"] as ["+ firmName +"]'s Bank Reference?");
+		
+		if(continueOn){
+			
+			saveBankReference(number,date,bankName,phone,email,depositAccNum,loanAccNum);
+			
+			message += "<font color='green'>This Bank Reference Has Been Saved.</font>" +
+							  "<br>Name of Bank: " + bankName +
+							  "<br>Phone: " + phone +
+							  "<br>Email: " + email +
+							  "<br>Deposit Account Number: " + depositAccNum +
+							  "<br>Loan Account Number: "+ loanAccNum;
+		}else{
+			message += "<font color='yellow'>Bank Reference Was Not Saved.</font>";
+		}
+	}
+	
+	g_form.addInfoMessage(message);
+	
+	if(continueOn){
+		clearFields();		
+	}
+}
+
+function clearFields(){
+	g_form.clearValue('u_bank_name');
+	g_form.clearValue('u_bank_ref_phone');
+	g_form.clearValue('u_bank_ref_email');
+	g_form.clearValue('u_bank_ref_deposit_num');
+	g_form.clearValue('u_bank_ref_loan_num');
+	g_form.addInfoMessage("<font color='red'>All Bank Reference Fields Have Been Cleared.</font>");
+}
+
+function saveBankReference(number,date,bankName,phone,email,depositAccNum,loanAccNum){
+	var bankRef = new GlideAjax('GlideAjaxAddReference');
+	bankRef.addParam('sysparm_name','addBankReference');
+	
+	bankRef.addParam('sysparm_number',number);
+	bankRef.addParam('sysparm_date',date);
+	bankRef.addParam('sysparm_bank_name',bankName);
+	bankRef.addParam('sysparm_phone',phone);
+	bankRef.addParam('sysparm_email',email);
+	bankRef.addParam('sysparm_deposit_num',depositAccNum);
+	bankRef.addParam('sysparm_loan_num',loanAccNum);
+	
+	bankRef.getXML(callBackFunction);
+	
+	function callBackFunction(response){
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-23 20:38:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4b9d7c021b4000108f38ed3abc4bcbb6</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Save Bank Reference</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_update_name>sys_script_client_4b9d7c021b4000108f38ed3abc4bcbb6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-24 20:12:04</sys_updated_on>
+        <table>x_404733_credit_ap_credit_application</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
