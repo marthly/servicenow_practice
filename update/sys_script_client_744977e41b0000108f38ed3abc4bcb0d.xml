@@ -20,14 +20,14 @@
 	
 	var firmName = g_form.getValue('firm_name');
 	
-	var companyName = g_form.getValue("u_reference_company");
-	var phone = g_form.getValue("u_reference_phone_1");
-	var email = g_form.getValue("u_ref_email_1");
-	var address = g_form.getValue("u_reference_address_1");
-	var state = g_form.getValue("u_ref_state_1");
-	var city = g_form.getValue("u_ref_city_1");
-	var otherCity = g_form.getValue("u_ref_other_city_1");
-	var zip = g_form.getValue("u_ref_zip");
+	var companyName = g_form.getValue("u_trade_ref_company_name");
+	var phone = g_form.getValue("u_trade_ref_phone");
+	var email = g_form.getValue("u_trade_ref_email");
+	var address = g_form.getValue("u_trade_ref_address");
+	var state = g_form.getValue("u_trade_ref_state");
+	var city = g_form.getValue("u_trade_ref_city");
+	var otherCity = g_form.getValue("u_trade_ref_other_city");
+	var zip = g_form.getValue("u_trade_ref_zip");
 	//===============================================================
 
    //Type appropriate comment here, and begin script below
@@ -65,31 +65,35 @@ function checkTradeEmptyField(number,date,firmName,companyName,phone,email,addre
 		
 		if(companyName === ""){
 			message += "<br>Company Name";
-			g_form.flash("u_reference_company","red",0);
+			g_form.flash("u_trade_ref_company_name","red",0);
 		}
 		if(phone === ""){
 			message += "<br>Phone";
-			g_form.flash("u_reference_phone_1","red",0);
+			g_form.flash("u_trade_ref_phone","red",0);
 		}
 		if(email === ""){
 			message += "</br>Email";
-			g_form.flash("u_ref_email_1","red",0);
+			g_form.flash("u_trade_ref_email","red",0);
 		}
 		if(address === ""){
 			message += "<br>Address";
-			g_form.flash("u_reference_address_1","red",0);
+			g_form.flash("u_trade_ref_address","red",0);
 		}
 		if(state === ""){
 			message += "<br>State";
-			g_form.flash("u_ref_state_1","red",0);
+			g_form.flash("u_trade_ref_state","red",0);
 		}
 		if(city === ""){
 			message += "<br>City";
-			g_form.flash("u_ref_city_1","red",0);
+			g_form.flash("u_trade_ref_city","red",0);
+		}
+		else if(city === "Other" && otherCity === ""){
+			message += "<br>Other City";
+			g_form.flash("u_trade_ref_other_city","red",0);
 		}
 		if(zip === ""){
 			message += "<br>Zip";
-			g_form.flash("u_ref_zip","red",0);
+			g_form.flash("u_trade_ref_zip","red",0);
 		}
 		
 	}else{
@@ -129,14 +133,14 @@ function checkTradeEmptyField(number,date,firmName,companyName,phone,email,addre
 }
 
 function clearFields(){
-	g_form.clearValue("u_reference_company");
-	g_form.clearValue("u_reference_phone_1");
-	g_form.clearValue("u_ref_email_1");
-	g_form.clearValue("u_reference_address_1");
-	g_form.clearValue("u_ref_state_1");
-	g_form.clearValue("u_ref_city_1");
-	g_form.clearValue("u_ref_other_city_1");
-	g_form.clearValue("u_ref_zip");
+	g_form.clearValue("u_trade_ref_company_name");
+	g_form.clearValue("u_trade_ref_phone");
+	g_form.clearValue("u_trade_ref_email");
+	g_form.clearValue("u_trade_ref_address");
+	g_form.clearValue("u_trade_ref_state");
+	g_form.clearValue("u_trade_ref_city");
+	g_form.clearValue("u_trade_other_city");
+	g_form.clearValue("u_trade_ref_zip");
 	g_form.addInfoMessage("<font color='red'>All Trade Reference Fields Have Been Cleared.</font>");
 }
 
@@ -168,7 +172,7 @@ function saveTradeReference(number,date,companyName,phone,email,address,state,ci
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>744977e41b0000108f38ed3abc4bcb0d</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>74</sys_mod_count>
         <sys_name>Save Trade Reference</sys_name>
         <sys_overrides/>
         <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
@@ -176,7 +180,7 @@ function saveTradeReference(number,date,companyName,phone,email,address,state,ci
         <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
         <sys_update_name>sys_script_client_744977e41b0000108f38ed3abc4bcb0d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-24 19:20:14</sys_updated_on>
+        <sys_updated_on>2019-09-25 18:28:29</sys_updated_on>
         <table>x_404733_credit_ap_credit_application</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

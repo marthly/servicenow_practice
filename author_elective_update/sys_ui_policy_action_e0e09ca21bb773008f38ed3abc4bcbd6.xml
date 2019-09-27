@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_ref_other_city_1</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-12 20:21:59</sys_created_on>
+        <sys_id>e0e09ca21bb773008f38ed3abc4bcbd6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>u_ref_other_city_1</sys_name>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e0e09ca21bb773008f38ed3abc4bcbd6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-20 21:42:52</sys_updated_on>
+        <table>x_404733_credit_ap_credit_application</table>
+        <ui_policy display_value="(credit application)&lt;Other City&gt;{u_ref_other_city_1} - Show or Hide Other Field Depending &lt;City&gt;.">533fc4621bb773008f38ed3abc4bcbd7</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</application>
+        <file_path/>
+        <instance_id>830fcfd9db1af3400ae3ac44d49619f8</instance_id>
+        <instance_name>dev88709</instance_name>
+        <name>sys_ui_policy_action_e0e09ca21bb773008f38ed3abc4bcbd6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_ref_other_city_1</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 20:21:59</sys_created_on><sys_id>e0e09ca21bb773008f38ed3abc4bcbd6</sys_id><sys_mod_count>2</sys_mod_count><sys_name>u_ref_other_city_1</sys_name><sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package><sys_policy/><sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope><sys_update_name>sys_ui_policy_action_e0e09ca21bb773008f38ed3abc4bcbd6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-20 21:42:52</sys_updated_on><table>x_404733_credit_ap_credit_application</table><ui_policy display_value="(credit application)&lt;Other City&gt;{u_ref_other_city_1} - Show or Hide Other Field Depending &lt;City&gt;.">533fc4621bb773008f38ed3abc4bcbd7</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-2133783739</payload_hash>
+        <record_name>u_ref_other_city_1</record_name>
+        <reverted_from/>
+        <source>6c0aaace1b7333008f38ed3abc4bcba9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-20 21:42:52</sys_created_on>
+        <sys_id>744035011b4400108f38ed3abc4bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d50a0b48e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-20 21:42:52</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>fc403501f4440010ea337aa5ddaea43a</update_guid>
+        <update_guid_history>fc403501f4440010ea337aa5ddaea43a:-2133783739,28219462b8b77300afbf8543a6c298c7:1863019082,92015ca249b773001a8cb907de3efa8d:-1738190194</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-25 18:08:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>2167b37770af4e168463e1ae57c8c0e4</sys_id>
+        <sys_metadata>e0e09ca21bb773008f38ed3abc4bcbd6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_ref_other_city_1</sys_name>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_parent display_value="(credit application)&lt;Other City&gt;{u_trade_ref_other_city} - Show or Hide Other Field Depending &lt;City&gt;.">533fc4621bb773008f38ed3abc4bcbd7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_scope_delete display_value="">0240c2cea527429583a7f0757d3e1e51</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_e0e09ca21bb773008f38ed3abc4bcbd6</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_e0e09ca21bb773008f38ed3abc4bcbd6">744035011b4400108f38ed3abc4bcb3b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-25 18:08:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

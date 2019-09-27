@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>(credit application)&lt;Zip&gt;{u_trade_ref_zip} - Check whether the input value is a number or not.</description>
+        <field>u_trade_ref_zip</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Number Check - Zip{u_trade_ref_zip}</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+    if(isNaN(newValue)){
+		g_form.showFieldMsg("u_trade_ref_zip","Numbers Only","error");
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-25 18:31:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>46f3326a1b8040108f38ed3abc4bcbfe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Number Check - Zip{u_trade_ref_zip}</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_update_name>sys_script_client_46f3326a1b8040108f38ed3abc4bcbfe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-25 18:32:06</sys_updated_on>
+        <table>x_404733_credit_ap_credit_application</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

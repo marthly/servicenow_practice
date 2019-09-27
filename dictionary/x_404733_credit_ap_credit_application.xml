@@ -7,8 +7,8 @@
         <element label="Add Audit" max_length="40" name="u_audit_file" type="file_attachment"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Include?" max_length="40" name="u_audit_statement" type="string">
             <choice>
-                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
-                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
             </choice>
         </element>
         <element label="Have you ever filed Bankruptcy?" max_length="40" name="u_bankruptcy" type="boolean"/>
@@ -588,73 +588,6 @@
         <element attributes="edge_encryption_enabled=true" label="Other City" max_length="50" name="u_other_city" type="string" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="Parent Name" max_length="40" name="u_parent_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="President Name" max_length="40" name="u_president_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Address" max_length="50" name="u_reference_address_1" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Company Name" max_length="40" name="u_reference_company" type="string"/>
-        <element label="Phone" max_length="40" name="u_reference_phone_1" type="phone_number_e164"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_city" choice_table="x_404733_credit_ap_credit_application" dependent="u_ref_state_1" dependent_on_field="u_ref_state_1" label="City" max_length="40" name="u_ref_city_1" type="string" use_dependent_field="true">
-            <choice>
-                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
-                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
-                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
-            </choice>
-        </element>
-        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_ref_email_1" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Other City" max_length="40" name="u_ref_other_city_1" type="string"/>
-        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" choice_field="u_state" choice_table="x_404733_credit_ap_credit_application" label="State" max_length="40" name="u_ref_state_1" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Alabama" sequence="0" value="Alabama"/>
-                <element inactive_on_update="false" label="Alaska" sequence="1" value="Alaska"/>
-                <element inactive_on_update="false" label="Arizona" sequence="2" value="Arizona"/>
-                <element inactive_on_update="false" label="Arkansas" sequence="3" value="Arkansas"/>
-                <element inactive_on_update="false" label="California" sequence="4" value="California"/>
-                <element inactive_on_update="false" label="Colorado" sequence="5" value="Colorado"/>
-                <element inactive_on_update="false" label="Connecticut" sequence="6" value="Connecticut"/>
-                <element inactive_on_update="false" label="Delaware" sequence="7" value="Delaware"/>
-                <element inactive_on_update="false" label="Florida" sequence="8" value="Florida"/>
-                <element inactive_on_update="false" label="Georgia" sequence="9" value="Georgia"/>
-                <element inactive_on_update="false" label="Hawaii" sequence="10" value="Hawaii"/>
-                <element inactive_on_update="false" label="Idaho" sequence="11" value="Idaho"/>
-                <element inactive_on_update="false" label="Illinois" sequence="12" value="Illinois"/>
-                <element inactive_on_update="false" label="Indiana" sequence="13" value="Indiana"/>
-                <element inactive_on_update="false" label="Iowa" sequence="14" value="Iowa"/>
-                <element inactive_on_update="false" label="Kansas" sequence="15" value="Kansas"/>
-                <element inactive_on_update="false" label="Kentucky" sequence="16" value="Kentucky"/>
-                <element inactive_on_update="false" label="Louisiana" sequence="17" value="Louisiana"/>
-                <element inactive_on_update="false" label="Maine" sequence="18" value="Maine"/>
-                <element inactive_on_update="false" label="Maryland" sequence="19" value="Maryland"/>
-                <element inactive_on_update="false" label="Massachusetts" sequence="20" value="Massachusetts"/>
-                <element inactive_on_update="false" label="Michigan" sequence="21" value="Michigan"/>
-                <element inactive_on_update="false" label="Minnesota" sequence="22" value="Minnesota"/>
-                <element inactive_on_update="false" label="Mississippi" sequence="23" value="Mississippi"/>
-                <element inactive_on_update="false" label="Missouri" sequence="24" value="Missouri"/>
-                <element inactive_on_update="false" label="Montana" sequence="25" value="Montana"/>
-                <element inactive_on_update="false" label="Nebraska" sequence="26" value="Nebraska"/>
-                <element inactive_on_update="false" label="Nevada" sequence="27" value="Nevada"/>
-                <element inactive_on_update="false" label="New Hampshire" sequence="28" value="New Hampshire"/>
-                <element inactive_on_update="false" label="New Jersey" sequence="29" value="New Jersey"/>
-                <element inactive_on_update="false" label="New Mexico" sequence="30" value="New Mexico"/>
-                <element inactive_on_update="false" label="New York" sequence="31" value="New York"/>
-                <element inactive_on_update="false" label="North Carolina" sequence="32" value="North Carolina"/>
-                <element inactive_on_update="false" label="North Dakota" sequence="33" value="North Dakota"/>
-                <element inactive_on_update="false" label="Ohio" sequence="34" value="Ohio"/>
-                <element inactive_on_update="false" label="Oklahoma" sequence="35" value="Oklahoma"/>
-                <element inactive_on_update="false" label="Oregon" sequence="36" value="Oregon"/>
-                <element inactive_on_update="false" label="Pennsylvania" sequence="37" value="Pennsylvania"/>
-                <element inactive_on_update="false" label="Rhode Island" sequence="38" value="Rhode Island"/>
-                <element inactive_on_update="false" label="South Carolina" sequence="39" value="South Carolina"/>
-                <element inactive_on_update="false" label="South Dakota" sequence="40" value="South Dakota"/>
-                <element inactive_on_update="false" label="Tennessee" sequence="41" value="Tennessee"/>
-                <element inactive_on_update="false" label="Texas" sequence="42" value="Texas"/>
-                <element inactive_on_update="false" label="Utah" sequence="43" value="Utah"/>
-                <element inactive_on_update="false" label="Vermont" sequence="44" value="Vermont"/>
-                <element inactive_on_update="false" label="Virginia" sequence="45" value="Virginia"/>
-                <element inactive_on_update="false" label="Washington" sequence="46" value="Washington"/>
-                <element inactive_on_update="false" label="West Virginia" sequence="47" value="West Virginia"/>
-                <element inactive_on_update="false" label="Wisconsin" sequence="48" value="Wisconsin"/>
-                <element inactive_on_update="false" label="Wyoming" sequence="49" value="Wyoming"/>
-            </choice>
-        </element>
-        <element label="Zip" max_length="40" name="u_ref_zip" type="longint"/>
         <element attributes="edge_encryption_enabled=true" label="Today's Date" max_length="40" name="u_sig_date" type="calendar_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Full Name" max_length="50" name="u_sig_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_state" type="string">
@@ -712,12 +645,24 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Street Address" max_length="100" name="u_street_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_trade_ref_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_city" choice_table="x_404733_credit_ap_credit_application" dependent="u_trade_ref_state" dependent_on_field="u_trade_ref_state" label="City" max_length="40" name="u_trade_ref_city" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Company Name" max_length="40" name="u_trade_ref_company_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_trade_ref_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other City" max_length="40" name="u_trade_ref_other_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="u_trade_ref_phone" type="phone_number_e164"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Save This Reference?" max_length="40" name="u_trade_ref_save" type="string">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
                 <element inactive_on_update="false" label="Clear" sequence="1" value="Clear"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_state" choice_table="x_404733_credit_ap_credit_application" label="State" max_length="40" name="u_trade_ref_state" type="string">
+            <choice/>
+        </element>
+        <element label="Zip" max_length="40" name="u_trade_ref_zip" type="longint"/>
         <element attributes="edge_encryption_enabled=true" label="Web Address" max_length="1024" name="u_web_address" type="url"/>
         <element label="Zip" max_length="40" name="u_zip" type="longint"/>
     </element>

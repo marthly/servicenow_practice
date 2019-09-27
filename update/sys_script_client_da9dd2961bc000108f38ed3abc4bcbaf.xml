@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Gives the user instruction on how to add an attachment.</description>
+        <field>u_audit_statement</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Display Attachment Instruction</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === ''){
+      return;
+   }
+
+   if(newValue == "Yes"){
+	   
+	  g_form.showFieldMsg("u_audit_statement","Click The 'Manage Attachment' Icon In The Banner Above To Add The Audited Year-End Financial Statement Document.");
+   }else{
+		g_form.hideFieldMsg("u_audit_statement");
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-24 22:20:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da9dd2961bc000108f38ed3abc4bcbaf</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Display Attachment Instruction</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
+        <sys_update_name>sys_script_client_da9dd2961bc000108f38ed3abc4bcbaf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-24 23:05:38</sys_updated_on>
+        <table>x_404733_credit_ap_credit_application</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

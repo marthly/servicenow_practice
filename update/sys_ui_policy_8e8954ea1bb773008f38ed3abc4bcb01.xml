@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <conditions table="x_404733_credit_ap_credit_application">u_audit_statement=yes^EQ<item display_value="Yes" endquery="false" field="u_audit_statement" goto="false" newquery="false" operator="=" or="false" value="yes"/>
+        <active>false</active>
+        <conditions table="x_404733_credit_ap_credit_application">u_audit_statement=yes^EQ<item display_value="yes" endquery="false" field="u_audit_statement" goto="false" newquery="false" operator="=" or="false" value="yes"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8e8954ea1bb773008f38ed3abc4bcb01</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>(credit application)&lt;Add Audit&gt; - Show or Hide Add Audit Depending on Audit Statement Response.</sys_name>
         <sys_overrides/>
         <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
         <sys_update_name>sys_ui_policy_8e8954ea1bb773008f38ed3abc4bcb01</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-12 21:33:10</sys_updated_on>
+        <sys_updated_on>2019-09-24 22:21:10</sys_updated_on>
         <table>x_404733_credit_ap_credit_application</table>
         <ui_type>0</ui_type>
         <view/>

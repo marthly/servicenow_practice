@@ -3,19 +3,19 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>u_no_audit_reason</field>
-        <mandatory>true</mandatory>
+        <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-12 21:37:24</sys_created_on>
         <sys_id>12326ce21bf773008f38ed3abc4bcb68</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>u_no_audit_reason</sys_name>
         <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
         <sys_update_name>sys_ui_policy_action_12326ce21bf773008f38ed3abc4bcb68</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-12 21:37:24</sys_updated_on>
+        <sys_updated_on>2019-09-24 21:04:22</sys_updated_on>
         <table>x_404733_credit_ap_credit_application</table>
         <ui_policy display_value="(credit application)&lt;Why Not?&gt; - Show or Hide No Audit Field ">8791e0e21bf773008f38ed3abc4bcbeb</ui_policy>
         <visible>true</visible>

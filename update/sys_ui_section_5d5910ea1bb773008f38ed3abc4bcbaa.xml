@@ -4,69 +4,55 @@
             <element>u_audit_statement</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-12 20:58:50</sys_created_on>
-            <sys_id>7579d0ea1bb773008f38ed3abc4bcb59</sys_id>
+            <sys_created_on>2019-09-24 22:28:38</sys_created_on>
+            <sys_id>5a11e65a1bc000108f38ed3abc4bcbf6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Audited Year-End Financial Statement" display_value="Audited Year-End Financial Statement" name="x_404733_credit_ap_credit_application" sys_domain="global" view="Default view">5d5910ea1bb773008f38ed3abc4bcbaa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-12 20:58:50</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_audit_file</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-12 20:58:50</sys_created_on>
-            <sys_id>f579d0ea1bb773008f38ed3abc4bcb59</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Audited Year-End Financial Statement" display_value="Audited Year-End Financial Statement" name="x_404733_credit_ap_credit_application" sys_domain="global" view="Default view">5d5910ea1bb773008f38ed3abc4bcbaa</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-12 20:58:50</sys_updated_on>
+            <sys_updated_on>2019-09-24 22:28:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-12 20:58:50</sys_created_on>
-            <sys_id>7979d0ea1bb773008f38ed3abc4bcb59</sys_id>
+            <sys_created_on>2019-09-24 22:28:38</sys_created_on>
+            <sys_id>da11e65a1bc000108f38ed3abc4bcbf6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Audited Year-End Financial Statement" display_value="Audited Year-End Financial Statement" name="x_404733_credit_ap_credit_application" sys_domain="global" view="Default view">5d5910ea1bb773008f38ed3abc4bcbaa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-12 20:58:50</sys_updated_on>
+            <sys_updated_on>2019-09-24 22:28:38</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-12 20:58:50</sys_created_on>
-            <sys_id>f979d0ea1bb773008f38ed3abc4bcb59</sys_id>
+            <sys_created_on>2019-09-24 22:28:38</sys_created_on>
+            <sys_id>5e11e65a1bc000108f38ed3abc4bcbf6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Audited Year-End Financial Statement" display_value="Audited Year-End Financial Statement" name="x_404733_credit_ap_credit_application" sys_domain="global" view="Default view">5d5910ea1bb773008f38ed3abc4bcbaa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-12 20:58:50</sys_updated_on>
+            <sys_updated_on>2019-09-24 22:28:38</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_no_audit_reason</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-12 20:58:50</sys_created_on>
-            <sys_id>7d79d0ea1bb773008f38ed3abc4bcb59</sys_id>
+            <sys_created_on>2019-09-24 22:28:38</sys_created_on>
+            <sys_id>de11e65a1bc000108f38ed3abc4bcbf6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Audited Year-End Financial Statement" display_value="Audited Year-End Financial Statement" name="x_404733_credit_ap_credit_application" sys_domain="global" view="Default view">5d5910ea1bb773008f38ed3abc4bcbaa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-12 20:58:50</sys_updated_on>
+            <sys_updated_on>2019-09-24 22:28:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
