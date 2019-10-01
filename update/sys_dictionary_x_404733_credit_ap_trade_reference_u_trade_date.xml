@@ -48,15 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-16 21:41:58</sys_created_on>
-        <sys_id>74b985731b3733008f38ed3abc4bcb4a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>20642aa81b1400108f38ed3abc4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Date</sys_name>
         <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
         <sys_update_name>sys_dictionary_x_404733_credit_ap_trade_reference_u_trade_date</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-16 21:55:04</sys_updated_on>
+        <sys_updated_on>2019-10-01 22:29:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

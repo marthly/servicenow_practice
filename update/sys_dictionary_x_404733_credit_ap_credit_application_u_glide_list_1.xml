@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>no_sort=true,slushbucket_ref_no_expand=true</attributes>
+        <attributes>edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice/>
@@ -48,15 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-17 21:16:40</sys_created_on>
-        <sys_id>848d06c41b0400108f38ed3abc4bcbe2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>60642aa81b1400108f38ed3abc4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Trade Reference</sys_name>
         <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
         <sys_update_name>sys_dictionary_x_404733_credit_ap_credit_application_u_glide_list_1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-17 21:21:54</sys_updated_on>
+        <sys_updated_on>2019-10-01 22:29:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

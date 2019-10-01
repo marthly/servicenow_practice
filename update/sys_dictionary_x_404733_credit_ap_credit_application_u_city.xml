@@ -7,8 +7,8 @@
         <audit>false</audit>
         <calculation/>
         <choice>1</choice>
-        <choice_field/>
-        <choice_table/>
+        <choice_field>u_city</choice_field>
+        <choice_table>x_404733_credit_ap_credit_application</choice_table>
         <column_label>City</column_label>
         <comments/>
         <create_roles/>
@@ -47,16 +47,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-11 22:15:22</sys_created_on>
+        <sys_created_on>2019-10-01 21:21:45</sys_created_on>
         <sys_id>d961eb461b7733008f38ed3abc4bcbeb</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>City</sys_name>
         <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
         <sys_update_name>sys_dictionary_x_404733_credit_ap_credit_application_u_city</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-17 20:27:21</sys_updated_on>
+        <sys_updated_on>2019-10-01 21:33:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
