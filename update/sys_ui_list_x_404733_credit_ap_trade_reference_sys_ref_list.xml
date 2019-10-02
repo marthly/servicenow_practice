@@ -2,18 +2,48 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_404733_credit_ap_trade_reference" version="2" view="sys_ref_list">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_id</element>
-            <list_id display_value="x_404733_credit_ap_trade_reference" element="NULL" name="x_404733_credit_ap_trade_reference" parent="NULL" relationship="NULL" sys_domain="global" view="437d11611b3333008f38ed3abc4bcbc1">549d8d371b3733008f38ed3abc4bcb40</list_id>
+            <element>u_trade_number</element>
+            <list_id display_value="x_404733_credit_ap_trade_reference" element="NULL" name="x_404733_credit_ap_trade_reference" parent="NULL" relationship="NULL" sys_domain="global" view="437d11611b3333008f38ed3abc4bcbc1">146e0be01b1800108f38ed3abc4bcbd9</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-16 21:58:52</sys_created_on>
-            <sys_id>9c9d8d371b3733008f38ed3abc4bcb40</sys_id>
+            <sys_created_on>2019-10-02 01:32:48</sys_created_on>
+            <sys_id>506e83241b1800108f38ed3abc4bcb22</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-16 21:58:52</sys_updated_on>
+            <sys_updated_on>2019-10-02 01:32:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_trade_company_name</element>
+            <list_id display_value="x_404733_credit_ap_trade_reference" element="NULL" name="x_404733_credit_ap_trade_reference" parent="NULL" relationship="NULL" sys_domain="global" view="437d11611b3333008f38ed3abc4bcbc1">146e0be01b1800108f38ed3abc4bcbd9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-02 01:32:48</sys_created_on>
+            <sys_id>186e83241b1800108f38ed3abc4bcb22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-02 01:32:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_trade_address</element>
+            <list_id display_value="x_404733_credit_ap_trade_reference" element="NULL" name="x_404733_credit_ap_trade_reference" parent="NULL" relationship="NULL" sys_domain="global" view="437d11611b3333008f38ed3abc4bcbc1">146e0be01b1800108f38ed3abc4bcbd9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-02 01:32:48</sys_created_on>
+            <sys_id>986e83241b1800108f38ed3abc4bcb22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-02 01:32:48</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -27,10 +57,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-16 21:58:52</sys_created_on>
+            <sys_created_on>2019-10-02 01:32:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>549d8d371b3733008f38ed3abc4bcb40</sys_id>
+            <sys_id>146e0be01b1800108f38ed3abc4bcbd9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_404733_credit_ap_trade_reference</sys_name>
             <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
@@ -38,7 +68,7 @@
             <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
             <sys_update_name>sys_ui_list_x_404733_credit_ap_trade_reference_sys_ref_list</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-16 21:58:52</sys_updated_on>
+            <sys_updated_on>2019-10-02 01:32:48</sys_updated_on>
             <sys_user/>
             <view display_value="Reference List" name="sys_ref_list">437d11611b3333008f38ed3abc4bcbc1</view>
             <view_name/>
