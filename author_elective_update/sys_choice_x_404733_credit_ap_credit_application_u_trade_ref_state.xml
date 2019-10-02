@@ -956,7 +956,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-10-01 21:21:48</sys_created_on>
-            <sys_id>6625a62c1b1400108f38ed3abc4bcbb3</sys_id>
+            <sys_id>773407e41bd400108f38ed3abc4bcbd9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_trade_ref_state</sys_name>
             <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>

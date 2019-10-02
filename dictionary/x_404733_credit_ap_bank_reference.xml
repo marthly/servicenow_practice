@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="bank reference" max_length="40" name="x_404733_credit_ap_bank_reference" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="u_bank_date" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Deposit Account Number" max_length="40" name="u_bank_deposit_acc_num" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_bank_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Loan Account Number" max_length="40" name="u_bank_loan_acc_num" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name of bank" max_length="40" name="u_bank_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="u_bank_number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="u_bank_phone" type="phone_number_e164"/>
+    </element>
+</database>
