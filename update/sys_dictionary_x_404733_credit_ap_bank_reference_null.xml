@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-02 00:28:26</sys_created_on>
-        <sys_id>39a9fc0e1b0000108f38ed3abc4bcbb9</sys_id>
+        <sys_id>654683e81bd400108f38ed3abc4bcbbf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_404733_credit_ap_bank_reference</sys_name>
         <sys_package display_value="Credit Application" source="x_404733_credit_ap">e40aaace1b7333008f38ed3abc4bcba7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Credit Application">e40aaace1b7333008f38ed3abc4bcba7</sys_scope>
-        <sys_update_name>sys_dictionary_x_404733_credit_ap_bank_reference_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_404733_credit_ap_bank_reference_NULL</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-02 00:28:26</sys_updated_on>
+        <sys_updated_on>2019-10-02 00:57:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
