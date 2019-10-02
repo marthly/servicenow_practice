@@ -643,7 +643,9 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Street Address" max_length="100" name="u_street_address" type="string"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" dependent="number" dependent_on_field="number" label="Select Trade Reference" max_length="32" name="u_trade_reference_selector" reference="x_404733_credit_ap_trade_reference" type="reference" use_dependent_field="true"/>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice,ref_ac_columns_search=true,ref_ac_columns=u_trade_ref_company_name" choice="1" label="Select Trade Reference" max_length="32" name="u_trade_reference_selector" reference="x_404733_credit_ap_trade_reference" type="reference" use_dependent_field="true">
+            <choice/>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_trade_ref_address" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_city" choice_table="x_404733_credit_ap_credit_application" dependent="u_trade_ref_state" dependent_on_field="u_trade_ref_state" label="City" max_length="40" name="u_trade_ref_city" type="string" use_dependent_field="true">
             <choice/>
